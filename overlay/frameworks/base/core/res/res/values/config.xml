@@ -1090,6 +1090,13 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 
+    <!-- Remote server that can provide NTP responses. -->
+    <string translatable="false" name="config_ntpServer">pool.ntp.org</string>
+
+     <!-- Use MIUI captive portal. -->
+    <string name="default_captive_portal_http_url" translatable="false">http://connect.rom.miui.com/generate_204</string>
+    <string name="default_captive_portal_https_url" translatable="false">https://connect.rom.miui.com/generate_204</string>
+    
     <!-- NightLight UDFPS -->
     <bool name="disable_udfps_night_light">true</bool>
 
